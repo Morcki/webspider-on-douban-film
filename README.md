@@ -37,6 +37,7 @@ login_infor = {
 1. 目录crawed下，Comments.json与Comments.txt包含评论的用户名称、评论日期、评论星级、支持人数以及评论内容。
 2. 目录analysis下， .html 文件是采用pyecharts库生成的评论分析结果（具有动态效果，下载打开效果更佳哟～）， .png 是评论词云图片。
 3. 目录analysis_pic下， .png文件时analysis目录中.html格式的静态图片。
-<center>红辣椒影评词云图</center>
-![](https://github.com/Morcki/webspider-on-douban-film/raw/master/analysis/Paprika.png)
-![](./analysis/Paprika.png)
+![](./analysis/Paprika.png "红辣椒影评词云图")
+![](./analysis_pic/Analysis of Sentiments.png "影评情感倾向分析")
+![](./analysis_pic/Comment Stars Given.png "评论星级占比")
+![](./analysis_pic/Satification.png "影评加权满意度")
