@@ -38,10 +38,10 @@ login_infor = {
 2. 目录analysis下， .html 文件是采用pyecharts库生成的评论分析结果（具有动态效果，下载打开效果更佳哟～）， .png 是评论词云图片。
 3. 目录analysis_pic下， .png文件时analysis目录中.html格式的静态图片。
 <center>红辣椒影评词云图</center>
-![Image text](https://raw.github.com/Morcki/webspider-on-douban-film/tree/master/analysis/Paprika.png)
+![Image text](https://github.com/Morcki/webspider-on-douban-film/blob/master/analysis/Paprika.png)
 <center>影评情感倾向分析</center>
-![Image text](https://raw.github.com/Morcki/webspider-on-douban-film/tree/master/analysis_pic/Analysis of Sentiments.png)
+![Image text](https://github.com/Morcki/webspider-on-douban-film/blob/master/analysis_pic/Analysis%20of%20Sentiments.png)
 <center>影评星级占比</center>
-![Image text](https://raw.github.com/Morcki/webspider-on-douban-film/tree/master/analysis_pic/Comment Stars Given.png)
+![Image text](https://github.com/Morcki/webspider-on-douban-film/blob/master/analysis_pic/Comment%20Stars%20Given.png)
 <center>影评满意度</center>
-![Image text](https://raw.github.com/Morcki/webspider-on-douban-film/tree/master/analysis_pic/Satification .png)
+![Image text](https://github.com/Morcki/webspider-on-douban-film/blob/master/analysis_pic/Satification%20.png)
