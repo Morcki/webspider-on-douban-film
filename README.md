@@ -32,16 +32,16 @@ login_infor = {
 ```
 3. douban_crawer.py 在运行过程中，由于多次重复登录豆瓣，可能会遇到验证码验证，脚本采用捕获验证码图片，
 储存在./crawed/captcha.jpg路径下。需要人工识别并输入验证码（尽量不要输错，否则多次输入错误会被拒绝访问）。
-# 爬去结果文件与评论分析
+# 爬取结果文件与评论分析
 ----
 1. 目录crawed下，Comments.json与Comments.txt包含评论的用户名称、评论日期、评论星级、支持人数以及评论内容。
 2. 目录analysis下， .html 文件是采用pyecharts库生成的评论分析结果（具有动态效果，下载打开效果更佳哟～）， .png 是评论词云图片。
 3. 目录analysis_pic下， .png文件时analysis目录中.html格式的静态图片。  
-<center>红辣椒影评词云图</center>
-![img](./analysis/Paprika.png "红辣椒影评词云图")
-<center>影评情感倾向分析</center>
-![img](./analysis_pic/Analysis_of_Sentiments.png "影评情感倾向分析")
-<center>评论星级占比</center>
-![img](./analysis_pic/Comment_Stars_Given.png "评论星级占比")
-<center>影评加权满意度</center>
-![img](./analysis_pic/Satification.png "影评加权满意度")
+<center>红辣椒影评词云图</center>  
+![](./analysis/Paprika.png)
+<center>影评情感倾向分析</center>  
+![](./analysis_pic/Analysis_of_Sentiments.png)
+<center>评论星级占比</center>  
+![](./analysis_pic/Comment_Stars_Given.png)
+<center>影评加权满意度</center>  
+![](./analysis_pic/Satification.png)
