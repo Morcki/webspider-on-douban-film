@@ -47,14 +47,14 @@ def Login_douban(redir_url):
     login_url = "https://accounts.douban.com/login"
     login_infor = {
             'redir':redir_url,
-            'form_email':'17713831797',
-            'form_password':'LYH2634445',
+            'form_email':'input Douban User Login',
+            'form_password':'input Douban User Password',
             'login':u'登录'
             }
     login_infor_copy = {
             'redir':"https://movie.douban.com/subject/1865703/comments",
-            'form_email':'17713831797',
-            'form_password':'LYH2634445',
+            'form_email':'input Douban User Login',
+            'form_password':'input Douban User Password',
             'login':u'登录'
             }
     while 1:
