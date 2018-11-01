@@ -38,6 +38,6 @@ login_infor = {
 2. 目录analysis下， .html 文件是采用pyecharts库生成的评论分析结果（具有动态效果，下载打开效果更佳哟～）， .png 是评论词云图片。
 3. 目录analysis_pic下， .png文件时analysis目录中.html格式的静态图片。
 ![](./analysis/Paprika.png "红辣椒影评词云图")
-![](./analysis_pic/Analysis of Sentiments.png "影评情感倾向分析")
-![](./analysis_pic/Comment Stars Given.png "评论星级占比")
+![](./analysis_pic/Analysis_of_Sentiments.png "影评情感倾向分析")
+![](./analysis_pic/Comment_Stars_Given.png "评论星级占比")
 ![](./analysis_pic/Satification.png "影评加权满意度")
