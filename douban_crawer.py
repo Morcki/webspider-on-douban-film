@@ -51,12 +51,7 @@ def Login_douban(redir_url):
             'form_password':'input Douban User Password',
             'login':u'登录'
             }
-    login_infor_copy = {
-            'redir':"https://movie.douban.com/subject/1865703/comments",
-            'form_email':'input Douban User Login',
-            'form_password':'input Douban User Password',
-            'login':u'登录'
-            }
+    login_infor_copy = login_infor.copy()
     while 1:
         content = s.post(login_url,data = login_infor_copy)
         "Input Identifying Code"
