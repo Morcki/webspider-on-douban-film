@@ -17,7 +17,7 @@
 - 安装[snownlp](https://github.com/isnowfy/snownlp)中文情感分析库
 `pip install snownlp`
 - 安装[pyecharts](https://github.com/pyecharts/pyecharts)图形绘制库
-(不推荐)`$ pip install pyecharts`，**安装过程中可能存在问题，建议查看简书上的引导[Damon0626](https://www.jianshu.com/p/eaad92f6d9ee)**
+(不推荐)`$ pip install pyecharts`，**安装过程中可能存在问题，建议查看简书上[Damon0626](https://www.jianshu.com/p/eaad92f6d9ee)**
 # 脚本说明
 ----
 1. douban_crawer.py 中调用main(filmname,url_start)，需要提供电影名称以及影评短评首页URL。  
