@@ -21,8 +21,8 @@
 # 脚本说明
 ----
 1. douban_crawer.py 中调用main(filmname,url_start)，需要提供电影名称以及影评短评首页URL。  
-实验用到的:
-filmname="红辣椒",
+实验用到的:  
+filmname="红辣椒",  
 url_start="https://movie.douban.com/subject/1865703/comments?start=0&limit=20&sort=new_score&status=P"  
 
 2. douban_crawer.py 中第48行 Login_douban(redir_url) 函数需要填写豆瓣的账户与密码  
