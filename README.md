@@ -25,11 +25,11 @@
 2. douban_crawer.py 中第48行 Login_douban(redir_url) 函数需要填写豆瓣的账户与密码  
 ```
 login_infor = {
-            'redir':redir_url,
-            'form_email':'input Douban User Login',
-            'form_password':'input Douban User Password',
-            'login':u'登录'
-            }
+              'redir':redir_url,
+              'form_email':'input Douban User Login',
+              'form_password':'input Douban User Password',
+              'login':u'登录'
+              }
 ```
 3. douban_crawer.py 在运行过程中，由于多次重复登录豆瓣，可能会遇到验证码验证，脚本采用捕获验证码图片，
 储存在./crawed/captcha.jpg路径下。需要人工识别并输入验证码（尽量不要输错，否则多次输入错误会被拒绝访问）。
