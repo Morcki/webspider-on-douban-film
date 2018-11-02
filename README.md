@@ -39,10 +39,6 @@ login_infor = {
 2. 目录analysis下， .html 文件是采用pyecharts库生成的评论分析结果（具有动态效果，下载打开效果更佳哟～）， .png 是评论词云图片。
 3. 目录analysis_pic下， .png文件时analysis目录中.html格式的静态图片。  
 ![img](./analysis_pic/analysis_of_sentiments.png "影评情感倾向分析")
-https://github.com/Morcki/webspider-on-douban-film/blob/master/analysis/Paprika.png
-<center>影评情感倾向分析</center>
 ![img](./analysis_pic/analysis_of_sentiments.png "影评情感倾向分析")
-<center>评论星级占比</center>
-![img](./analysis_pic/comment_Stars.png "评论星级占比")
-<center>影评加权满意度</center>
+![img](./analysis_pic/comment_stars.png "评论星级占比")
 ![img](./analysis_pic/satification.png "影评加权满意度")
