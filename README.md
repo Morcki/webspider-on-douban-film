@@ -7,6 +7,7 @@
 ----
 建议使用 [Anaconda](https://www.anaconda.com/download/) 集成环境  
 针对linux用户：  
+
 - 安装BeautifulSoup爬虫框架
 `$ sudo apt-get python3-bs4(python3)`
 - 安装[wordcloud](https://github.com/amueller/word_cloud)词云库
@@ -40,8 +41,8 @@ login_infor = {
 <center>红辣椒影评词云图</center>
 ![img](./analysis/Paprika.png "红辣椒影评词云图")
 <center>影评情感倾向分析</center>
-![img](./analysis_pic/Analysis_of_Sentiments.png "影评情感倾向分析")
+![img](./analysis_pic/analysis_of_sentiments.png "影评情感倾向分析")
 <center>评论星级占比</center>
-![img](./analysis_pic/Comment_Stars_Given.png "评论星级占比")
+![img](./analysis_pic/comment_Stars.png "评论星级占比")
 <center>影评加权满意度</center>
-![img](./analysis_pic/Satification.png "影评加权满意度")
+![img](./analysis_pic/satification.png "影评加权满意度")
